@@ -1,0 +1,90 @@
+/*dex*/ /*more stuff done by nathan*/
+
+* {
+    -fx-font-family: "Courier New";
+}
+
+#Layout{
+    -fx-background-color: #ffffff;
+}
+
+.label{
+    -fx-text-fill: Black;
+    -fx-alignment: center;
+    -fx-text-alignment: center;
+}
+
+.text-field{
+    -fx-font-size: 16px;
+    -fx-alignment: center;
+}
+
+.text-area{
+    -fx-font-size: 14px;
+    -fx-alignment: center;
+}
+
+.text-area .content {
+    -fx-text-alignment: center;
+}
+
+.button{
+    -fx-background-color:Black;
+    -fx-text-fill:white;
+    -fx-background-radius:8;
+}
+
+.button:hover{
+    -fx-background-color: #8E8E8E;
+}
+
+#msgLabel {
+    -fx-alignment: center;
+    -fx-text-alignment: center;
+}
+
+#inputField {
+    -fx-alignment: center;
+    -fx-padding: 0;
+    -fx-effect: null;
+    -fx-border-color: transparent;
+    -fx-background-insets: 0;
+    -fx-border-insets: 0;
+}
+
+#resultArea .text {
+    -fx-text-alignment: center;
+}
+
+#resultArea {
+    -fx-padding: 0;
+    -fx-background-insets: 0, 0, 0;
+}
+
+#resultArea .content {
+    -fx-padding: 0;
+}
+
+
+.scroll-pane {
+    -fx-padding: 0;
+    -fx-background-color: transparent;
+    -fx-effect: null;
+}
+
+.scroll-pane .viewport {
+    -fx-background-color: transparent;
+}
+
+.grid-pane {
+    -fx-background-color: transparent;
+    -fx-effect: null;
+}
+
+.text-field, .text-area {
+    -fx-effect: null;
+    -fx-background-insets: 0;
+}
+.text-field, .text-area .content {
+    -fx-background-color: #ffffff;  /* or whatever your box colour is */
+}
